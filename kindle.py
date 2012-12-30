@@ -12,12 +12,9 @@ __author__ = "Luciano Fiandesio <http://fiandes.io/>"
 
 import re
 import sys
-import urllib
-import urlparse
 from bs4 import BeautifulSoup
 from optparse import OptionParser
 import mechanize
-import codecs
 
 
 xstr = lambda s: s or ""
